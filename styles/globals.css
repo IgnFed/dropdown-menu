@@ -1,0 +1,63 @@
+@import url("./dropdown.css");
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+body{
+  height: 100vh;
+  width: 200%;
+  background-color: #ddd;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.container-dropdown{
+  margin: 20vh 0;
+}
+
+ul{
+  margin: 0;
+  padding: 0;
+}
+a {
+  color: inherit;
+  text-decoration: none;
+}
+li{
+  list-style: none;
+}
+* {
+  box-sizing: border-box;
+}
+*:focus, *:hover{
+  outline: none;
+}
+
+
+/* ===== Scrollbar CSS ===== */
+  /* Firefox */
+  * {
+    scrollbar-width: auto;
+    scrollbar-color: #cc50f2 #e2dfdf;
+  }
+
+  /* Chrome, Edge, and Safari */
+  *::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+  }
+
+  *::-webkit-scrollbar-track {
+    background: #e2dfdf;
+  }
+
+  *::-webkit-scrollbar-thumb {
+    background-color: #cc50f2;
+    border-radius: 12px;
+    border: 2px solid #c91aff;
+  }
